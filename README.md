@@ -8,5 +8,6 @@ if(userName.lower() == "kerem" and userPassword == "kerem123"):
     print("Welcome to facebook!")
 else:
     print("Wrong credentials, try again!")
-
+import hashlib
+print (hashlib.md5(b"hello").hexdigest())
 
